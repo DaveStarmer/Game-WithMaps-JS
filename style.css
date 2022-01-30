@@ -1,0 +1,49 @@
+body {
+    background-color: #303030;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+}
+h1 {
+    text-align: center;
+    color: yellow;
+}
+#display-area {
+    height: 70vh;
+    width: 90vw;
+    margin: auto;
+    background-color: black;
+    color: white;
+    overflow-y: auto;
+}
+#input-area {
+    height: 10vh;
+    width: 90vw;
+    margin:auto;
+    background-color: black;
+}
+#input-prompt {
+    width: 100vw;
+    color: yellow;
+}
+#input-text {
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    color: white;
+    text-transform: uppercase;
+}
+#input-text::before {
+    content: "&gt;";
+}
+#input-text {
+    width:95%;
+    margin: 0 0 0 4%;
+    border: none;
+    background-color:transparent;
+    color:red;
+    outline:none;
+}
+#input-text:focus {
+    border: none;
+    outline:none;
+}
